@@ -8,17 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		DF91F4F02A2A0CB100F3D048 /* PokemonDexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F4EF2A2A0CB100F3D048 /* PokemonDexApp.swift */; };
-		DF91F4F22A2A0CB100F3D048 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F4F12A2A0CB100F3D048 /* ContentView.swift */; };
+		DF91F4F22A2A0CB100F3D048 /* CreaturesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F4F12A2A0CB100F3D048 /* CreaturesListView.swift */; };
 		DF91F4F42A2A0CB500F3D048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF91F4F32A2A0CB500F3D048 /* Assets.xcassets */; };
 		DF91F4F72A2A0CB500F3D048 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF91F4F62A2A0CB500F3D048 /* Preview Assets.xcassets */; };
+		DF91F4FF2A2A115400F3D048 /* CreaturesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F4FE2A2A115400F3D048 /* CreaturesViewModel.swift */; };
+		DF91F5012A2A1EA900F3D048 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F5002A2A1EA900F3D048 /* DetailView.swift */; };
+		DF91F5032A2A250A00F3D048 /* Creature.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F5022A2A250A00F3D048 /* Creature.swift */; };
+		DF91F5052A2A672600F3D048 /* CreatureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF91F5042A2A672600F3D048 /* CreatureDetailViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF91F4EC2A2A0CB100F3D048 /* PokemonDex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonDex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF91F4EF2A2A0CB100F3D048 /* PokemonDexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonDexApp.swift; sourceTree = "<group>"; };
-		DF91F4F12A2A0CB100F3D048 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DF91F4F12A2A0CB100F3D048 /* CreaturesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesListView.swift; sourceTree = "<group>"; };
 		DF91F4F32A2A0CB500F3D048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF91F4F62A2A0CB500F3D048 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DF91F4FD2A2A0DBA00F3D048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DF91F4FE2A2A115400F3D048 /* CreaturesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreaturesViewModel.swift; sourceTree = "<group>"; };
+		DF91F5002A2A1EA900F3D048 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DF91F5022A2A250A00F3D048 /* Creature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Creature.swift; sourceTree = "<group>"; };
+		DF91F5042A2A672600F3D048 /* CreatureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatureDetailViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +60,13 @@
 		DF91F4EE2A2A0CB100F3D048 /* PokemonDex */ = {
 			isa = PBXGroup;
 			children = (
+				DF91F4FD2A2A0DBA00F3D048 /* Info.plist */,
 				DF91F4EF2A2A0CB100F3D048 /* PokemonDexApp.swift */,
-				DF91F4F12A2A0CB100F3D048 /* ContentView.swift */,
+				DF91F5022A2A250A00F3D048 /* Creature.swift */,
+				DF91F4FE2A2A115400F3D048 /* CreaturesViewModel.swift */,
+				DF91F5042A2A672600F3D048 /* CreatureDetailViewModel.swift */,
+				DF91F4F12A2A0CB100F3D048 /* CreaturesListView.swift */,
+				DF91F5002A2A1EA900F3D048 /* DetailView.swift */,
 				DF91F4F32A2A0CB500F3D048 /* Assets.xcassets */,
 				DF91F4F52A2A0CB500F3D048 /* Preview Content */,
 			);
@@ -137,7 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF91F4F22A2A0CB100F3D048 /* ContentView.swift in Sources */,
+				DF91F4FF2A2A115400F3D048 /* CreaturesViewModel.swift in Sources */,
+				DF91F5012A2A1EA900F3D048 /* DetailView.swift in Sources */,
+				DF91F4F22A2A0CB100F3D048 /* CreaturesListView.swift in Sources */,
+				DF91F5032A2A250A00F3D048 /* Creature.swift in Sources */,
+				DF91F5052A2A672600F3D048 /* CreatureDetailViewModel.swift in Sources */,
 				DF91F4F02A2A0CB100F3D048 /* PokemonDexApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,9 +288,9 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = PokemonDex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokemon Catch'em All";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +317,9 @@
 				DEVELOPMENT_TEAM = CSDME8QJX3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = PokemonDex/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pokemon Catch'em All";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
